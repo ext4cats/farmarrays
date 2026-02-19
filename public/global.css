@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
-  background-color: #171312;
-  color: #a28c82;
+  background-color: hsl(12, 12%, 8%);
+  color: hsl(12, 18%, 58%);
 }
 
 a {
