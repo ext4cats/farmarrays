@@ -1,10 +1,10 @@
 # farmarrays
 
-This is a simple landing page for [farmarrays.com](https://farmarrays.com), a utility domain, used for boring purposes; such as signing up for online accounts and receiving mail. Gotta have that A record point to something after all.
+This is a simple landing page for [farmarrays.com](https://farmarrays.com), one of my domains. This one hosts a few private services for personal use.
 
 ## Building
 
-This is a regular Astro project. No fancy knobs to turn.
+This is a regular Astro project, no fancy knobs to turn. You need a working installation of [`pnpm`](https://pnpm.io) to build the website.
 
 ```bash
 # Install dependencies
