@@ -1,63 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Seedling from '../assets/seedling.svg';
 ---
 
-<Layout>
-  <header>
-    <h1>farmarrays.com</h1>
-  </header>
-  <main>
-    <p>
-      Hey there. What you are seeing right now is the entire website. This
-      domain is used for boring purposes; such as signing up for online accounts
-      and receiving mail. Gotta have that A record point to something after all.
-    </p>
-    <p>
-      You can find my main website over at <a
-        href="https://memoryconflux.com"
-        target="_blank"
-        rel="noopener noreferrer">memoryconflux.com</a
-      >.
-    </p>
-  </main>
-  <footer>
-    <Seedling width="32" height="32" stroke-width="1" />
-    <p>Life can blossom in the weirdest of places.</p>
-    <p>
-      Hosted with love by <a
-        href="https://ext4cats.memoryconflux.com"
-        target="_blank"
-        rel="noopener noreferrer">ext4cats</a
-      >.
-    </p>
-  </footer>
+<Layout title="farmarrays.com">
+  <p>
+    Hey there. There is not much to see here; this domain only hosts private
+    services for personal use. You may visit my main website over at <a
+      href="https://memoryconflux.com"
+      target="_blank"
+      rel="noopener noreferrer">memoryconflux.com</a
+    >.
+  </p>
 </Layout>
-
-<style>
-  header,
-  main,
-  footer {
-    max-width: 85ch;
-    padding-inline: 3em;
-    margin-inline: auto;
-    text-align: center;
-    margin-top: 3em;
-  }
-
-  main p {
-    margin-block: 1em;
-  }
-
-  footer {
-    color: hsl(12, 12%, 24%);
-  }
-
-  footer svg {
-    margin-inline: auto;
-  }
-
-  footer p {
-    font-style: italic;
-  }
-</style>

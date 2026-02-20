@@ -1,3 +1,15 @@
+---
+import '../styles/reset.css';
+import '../styles/main.css';
+import Seedling from '../assets/seedling.svg';
+
+const { title } = Astro.props;
+
+interface Props {
+  readonly title: string;
+}
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,11 +18,25 @@
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="stylesheet" href="/reset.css" />
-    <link rel="stylesheet" href="/global.css" />
     <title>farmarrays.com</title>
   </head>
   <body>
-    <slot />
+    <header>
+      <h1>{title}</h1>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <Seedling width="32" height="32" stroke-width="1" />
+      <p>Life can blossom in the weirdest of places.</p>
+      <p>
+        Hosted with love by <a
+          href="https://ext4cats.memoryconflux.com"
+          target="_blank"
+          rel="noopener noreferrer">ext4cats</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
