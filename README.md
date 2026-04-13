@@ -1,6 +1,6 @@
 # farmarrays
 
-A simple landing page for [farmarrays.com](https://farmarrays.com), one of my personal domains.
+🌱 A simple landing page for [farmarrays.com](https://farmarrays.com), one of my personal domains.
 
 ## Building
 
@@ -10,6 +10,6 @@ This is a vanilla Astro project, no fancy dials to turn. You'll need a working i
 # Install dependencies
 pnpm i
 
-# Build the final page
+# Build the website
 pnpm build
 ```
